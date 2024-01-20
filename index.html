@@ -25,13 +25,16 @@
         .manrop{
             font-family: "Manrope", sans-serif;
         }
+        .o1{
+            background-color: var(--Linear, linear-gradient(270deg, #F00 0%, #FF8938 100%));
+        }
     </style>
   </head>
   <body>
-    <header class="container mx-auto manrop">
+    <header class="lg:w-[1172px] mx-auto manrop">
       <nav>
-        <div class="navbar flex justify-between bg-red-400">
-          <div class="">
+        <div class="navbar flex justify-between">
+          <div class="w-full flex justify-between">
             <a class="btn btn-ghost text-xl">daisyUI</a>
             <div class="dropdown">
               <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -110,7 +113,7 @@
       <!-- hero end -->
       
     </header>
-    <main class="container mx-auto manrop lg:mt-[100px]">
+    <main class="w-[95%] lg:w-[1172px] mx-auto manrop lg:mt-[100px]">
         <!-- Feature section -->
       <div>
         <div class="w-[100%] lg:w-[901px] mx-auto text-center space-x-9">
@@ -170,7 +173,36 @@
       <!-- Feature section End-->
 
       <!-- Great Tea Start -->
-      <div class="great">
+      <div class="great mt-20 flex flex-col-reverse lg:flex-row ">
+
+        <div class="grid gap-8 grid-cols-1 lg:grid-cols-2 flex-1 mt-[50px]">
+
+            <div class="hidden lg:flex bg-gradient-to-r from-red-600 to-yellow-400 opacity-50 rounded-xl h-32"></div>
+            <div class="row-span-2 bg-red bg-purple-500 h-80 rounded-xl flex justify-between">
+                <img src="./images/fresh-1.png" class="m-auto" alt="">
+            </div>
+            <div class="row-span-2 bg-red bg-yellow-200 h-80 rounded-xl flex justify-between">
+                <img src="./images/fresh-2.png" class="m-auto" alt="">
+            </div>
+            <div class="bg-red hidden lg:flex bg-gradient-to-r from-purple-500 to-pink-500 opacity-50  h-32 rounded-xl"></div>
+
+
+
+        </div>
+        <div class="right w-full lg:w-[532px] flex-1 lg:ml-[70px]">
+           <div class="space-y-5">
+            <h1 class="text-5xl font-[800] text-black leading-20">Great Tea, Freshly <br> Presented</h1>
+            <p class="text-xl text-[500] text-[#777]">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
+           </div>
+           <div class="mt-4">
+            <h5 class="text-[20px] font-[800]">Unique Taste</h5>
+            <p  class="text-xl text-[500] text-[#777]">A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
+           </div>
+           <div class="mt-4">
+            <h5 class="text-[20px] font-[800]">Premium Quality</h5>
+            <p  class="text-xl text-[500] text-[#777]">Premium Quality that makes tea more elegant and more durable when you use it.</p>
+           </div>
+        </div>
 
 
 

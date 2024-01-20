@@ -32,6 +32,7 @@
       <nav>
         <div class="navbar flex justify-between bg-red-400">
           <div class="">
+            <a class="btn btn-ghost text-xl">daisyUI</a>
             <div class="dropdown">
               <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                 <svg
@@ -59,7 +60,7 @@
                 <li><a>Order Now</a></li>
               </ul>
             </div>
-            <a class="btn btn-ghost text-xl">daisyUI</a>
+            
           </div>
           <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1">
@@ -73,10 +74,10 @@
       </nav>
       <!-- nav end -->
       <div class="hero ">
-        <div class="hero-content flex-col lg:flex-row">
+        <div class="hero-content flex-col-reverse lg:flex-row">
          
-          <div class="w-[628px]">
-            <h1 class="text-[80px] font-[800] text-[#1C1C1C]">
+          <div class="w-[100%] lg:w-[628px]">
+            <h1 class="text-[35px] lg:text-[80px] font-[800] text-[#1C1C1C]">
               It's good <br />
               tea time at <br />
               The Tea House
@@ -95,10 +96,10 @@
             class=" "
           />
            </div>
-           <div class="flex bg-white h-[90px] items-center w-[230px] space-x-5 p-[20px] -mt-24 relative ml-20 shadow-lg">
+           <div class="flex w-[150px] bg-white lg:h-[90px] items-center lg:w-[230px] space-x-5 lg:p-[20px] -mt-20 p-[8px] rounded-lg lg:-mt-24 relative ml-20 shadow-lg">
             <i class="fa-solid fa-star text-[38px] text-orange-500"></i>
             <div>
-                <h3  class="text-[22px] text-[800]">5.00</h3>
+                <h3  class="text-[20px] lg:text-[22px] text-[800]">5.00</h3>
                 <h3 class="text-[12px] text-[600] text-[#777]"> Trust Pilot Ratings</h3>
             </div>
         </div>
@@ -107,8 +108,82 @@
       </div>
 
       <!-- hero end -->
+      
     </header>
-    <main></main>
+    <main class="container mx-auto manrop lg:mt-[100px]">
+        <!-- Feature section -->
+      <div>
+        <div class="w-[100%] lg:w-[901px] mx-auto text-center space-x-9">
+            <h1 class="text-[45px] text-[800] text-[#1C1C1C]">Our Featured Products</h1>
+        <p class="text-[16px] text-[500] text-[#777]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+        </div>
+      </div>
+      <!-- top end -->
+
+      <!-- card start -->
+      <div class="grid gap-[20px] grid-cols-1 lg:grid-cols-4 mt-14">
+        <!-- card1 -->
+        <div class="card  bg-red-400 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="./images/tea-1.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title text-[25px] text-[800]">Milk Tea</h2>
+              <p class="text-[16px] text-[600] text-[#777]">Creamer could be replaced <br> by fresh milk</p>
+            </div>
+          </div>
+           <!-- card2 -->
+        <div class="card  bg-red-400 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="./images/tea-2.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title text-[25px] text-[800]">Black Tea</h2>
+              <p class="text-[16px] text-[600] text-[#777]">Creamer could be replaced <br> by fresh milk</p>
+            </div>
+          </div>
+           <!-- card3 -->
+        <div class="card  bg-red-400 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="./images/tea-3.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title text-[25px] text-[800]">Lemon Tea</h2>
+              <p class="text-[16px] text-[600] text-[#777]">Creamer could be replaced <br> by fresh milk</p>
+            </div>
+          </div>
+           <!-- card4 -->
+        <div class="card  bg-red-400 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="./images/tea-4.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title text-[25px] text-[800]">Green Tea</h2>
+              <p class="text-[16px] text-[600] text-[#777]">Creamer could be replaced <br> by fresh milk</p>
+            </div>
+          </div>
+      </div>
+
+
+      <!-- card end -->
+
+      <!-- Feature section End-->
+
+      <!-- Great Tea Start -->
+      <div class="great">
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <!-- Great Tea End -->
+    </main>
     <footer></footer>
   </body>
 </html>

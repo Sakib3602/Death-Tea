@@ -12,7 +12,13 @@
       rel="stylesheet"
     />
     <!-- font awosome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- daisy ui and tailwind -->
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css"
@@ -22,12 +28,15 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- ======================== -->
     <style>
-        .manrop{
-            font-family: "Manrope", sans-serif;
-        }
-        .o1{
-            background-color: var(--Linear, linear-gradient(270deg, #F00 0%, #FF8938 100%));
-        }
+      .manrop {
+        font-family: "Manrope", sans-serif;
+      }
+      .o1 {
+        background-color: var(
+          --Linear,
+          linear-gradient(270deg, #f00 0%, #ff8938 100%)
+        );
+      }
     </style>
   </head>
   <body>
@@ -35,7 +44,9 @@
       <nav>
         <div class="navbar flex justify-between">
           <div class="w-full flex justify-between">
-            <a class="btn btn-ghost text-xl">daisyUI</a>
+            <a class="btn btn-ghost text-xl font-[900]"
+              >Death <span class="text-orange-500">Tea</span></a
+            >
             <div class="dropdown">
               <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                 <svg
@@ -63,7 +74,6 @@
                 <li><a>Order Now</a></li>
               </ul>
             </div>
-            
           </div>
           <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1">
@@ -76,49 +86,56 @@
         </div>
       </nav>
       <!-- nav end -->
-      <div class="hero ">
+      <div class="hero">
         <div class="hero-content flex-col-reverse lg:flex-row">
-         
           <div class="w-[100%] lg:w-[628px]">
             <h1 class="text-[35px] lg:text-[80px] font-[800] text-[#1C1C1C]">
               It's good <br />
-              tea time at <br />
-              The Tea House
+              tea time at The Tea House
             </h1>
             <p class="py-6 text-[18px] font-[500] text-[#777]">
               Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
               Your Taste Buds.
             </p>
-            <button class="btn btn-error text-white font-[500]">Explore More</button>
+            <button class="btn btn-error text-white font-[500]">
+              Explore More
+            </button>
           </div>
 
           <div class="">
-           <div>
-            <img
-            src="./images/banner.png"
-            class=" "
-          />
-           </div>
-           <div class="flex w-[150px] bg-white lg:h-[90px] items-center lg:w-[230px] space-x-5 lg:p-[20px] -mt-20 p-[8px] rounded-lg lg:-mt-24 relative ml-20 shadow-lg">
-            <i class="fa-solid fa-star text-[38px] text-orange-500"></i>
             <div>
-                <h3  class="text-[20px] lg:text-[22px] text-[800]">5.00</h3>
-                <h3 class="text-[12px] text-[600] text-[#777]"> Trust Pilot Ratings</h3>
+              <img src="./images/banner.png" class=" " />
             </div>
-        </div>
+            <div
+              class="flex w-[150px] bg-white lg:h-[90px] items-center lg:w-[230px] space-x-5 lg:p-[20px] -mt-20 p-[8px] rounded-lg lg:-mt-24 relative ml-20 shadow-lg"
+            >
+              <i class="fa-solid fa-star text-[38px] text-orange-500"></i>
+              <div>
+                <h3 class="text-[20px] lg:text-[22px] text-[800]">5.00</h3>
+                <h3 class="text-[12px] text-[600] text-[#777]">
+                  Trust Pilot Ratings
+                </h3>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
       <!-- hero end -->
-      
     </header>
     <main class="w-[95%] lg:w-[1172px] mx-auto manrop lg:mt-[100px]">
-        <!-- Feature section -->
+      <!-- Feature section -->
       <div>
-        <div class="w-[100%] lg:w-[901px] mx-auto text-center space-x-9">
-            <h1 class="text-[45px] text-[800] text-[#1C1C1C]">Our Featured Products</h1>
-        <p class="text-[16px] text-[500] text-[#777]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+        <div class="w-[100%] lg:w-[901px] mx-auto text-center lg:space-x-9">
+          <h1 class="text-[45px] text-[800] text-[#1C1C1C]">
+            Our Featured Products
+          </h1>
+          <p class="text-[16px] text-[500] text-[#777]">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don't look even slightly
+            believable.
+          </p>
         </div>
       </div>
       <!-- top end -->
@@ -126,95 +143,174 @@
       <!-- card start -->
       <div class="grid gap-[20px] grid-cols-1 lg:grid-cols-4 mt-14">
         <!-- card1 -->
-        <div class="card  bg-red-400 shadow-xl">
-            <figure class="px-10 pt-10">
-              <img src="./images/tea-1.png" alt="Shoes" class="rounded-xl" />
-            </figure>
-            <div class="card-body items-center text-center">
-              <h2 class="card-title text-[25px] text-[800]">Milk Tea</h2>
-              <p class="text-[16px] text-[600] text-[#777]">Creamer could be replaced <br> by fresh milk</p>
-            </div>
+        <div class="card bg-[#F4F4F4] shadow-xl">
+          <figure class="px-10 pt-10">
+            <img src="./images/tea-1.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title text-[25px] text-[800]">Milk Tea</h2>
+            <p class="text-[16px] text-[600] text-[#777]">
+              Creamer could be replaced <br />
+              by fresh milk
+            </p>
           </div>
-           <!-- card2 -->
-        <div class="card  bg-red-400 shadow-xl">
-            <figure class="px-10 pt-10">
-              <img src="./images/tea-2.png" alt="Shoes" class="rounded-xl" />
-            </figure>
-            <div class="card-body items-center text-center">
-              <h2 class="card-title text-[25px] text-[800]">Black Tea</h2>
-              <p class="text-[16px] text-[600] text-[#777]">Creamer could be replaced <br> by fresh milk</p>
-            </div>
+        </div>
+        <!-- card2 -->
+        <div class="card bg-[#F4F4F4] shadow-xl">
+          <figure class="px-10 pt-10">
+            <img src="./images/tea-2.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title text-[25px] text-[800]">Black Tea</h2>
+            <p class="text-[16px] text-[600] text-[#777]">
+              Creamer could be replaced <br />
+              by fresh milk
+            </p>
           </div>
-           <!-- card3 -->
-        <div class="card  bg-red-400 shadow-xl">
-            <figure class="px-10 pt-10">
-              <img src="./images/tea-3.png" alt="Shoes" class="rounded-xl" />
-            </figure>
-            <div class="card-body items-center text-center">
-              <h2 class="card-title text-[25px] text-[800]">Lemon Tea</h2>
-              <p class="text-[16px] text-[600] text-[#777]">Creamer could be replaced <br> by fresh milk</p>
-            </div>
+        </div>
+        <!-- card3 -->
+        <div class="card bg-[#F4F4F4] shadow-xl">
+          <figure class="px-10 pt-10">
+            <img src="./images/tea-3.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title text-[25px] text-[800]">Lemon Tea</h2>
+            <p class="text-[16px] text-[600] text-[#777]">
+              Creamer could be replaced <br />
+              by fresh milk
+            </p>
           </div>
-           <!-- card4 -->
-        <div class="card  bg-red-400 shadow-xl">
-            <figure class="px-10 pt-10">
-              <img src="./images/tea-4.png" alt="Shoes" class="rounded-xl" />
-            </figure>
-            <div class="card-body items-center text-center">
-              <h2 class="card-title text-[25px] text-[800]">Green Tea</h2>
-              <p class="text-[16px] text-[600] text-[#777]">Creamer could be replaced <br> by fresh milk</p>
-            </div>
+        </div>
+        <!-- card4 -->
+        <div class="card bg-[#F4F4F4] shadow-xl">
+          <figure class="px-10 pt-10">
+            <img src="./images/tea-4.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title text-[25px] text-[800]">Green Tea</h2>
+            <p class="text-[16px] text-[600] text-[#777]">
+              Creamer could be replaced <br />
+              by fresh milk
+            </p>
           </div>
+        </div>
       </div>
-
 
       <!-- card end -->
 
       <!-- Feature section End-->
 
       <!-- Great Tea Start -->
-      <div class="great mt-20 flex flex-col-reverse lg:flex-row ">
-
-        <div class="grid gap-8 grid-cols-1 lg:grid-cols-2 flex-1 mt-[50px]">
-
-            <div class="hidden lg:flex bg-gradient-to-r from-red-600 to-yellow-400 opacity-50 rounded-xl h-32"></div>
-            <div class="row-span-2 bg-red bg-purple-500 h-80 rounded-xl flex justify-between">
-                <img src="./images/fresh-1.png" class="m-auto" alt="">
-            </div>
-            <div class="row-span-2 bg-red bg-yellow-200 h-80 rounded-xl flex justify-between">
-                <img src="./images/fresh-2.png" class="m-auto" alt="">
-            </div>
-            <div class="bg-red hidden lg:flex bg-gradient-to-r from-purple-500 to-pink-500 opacity-50  h-32 rounded-xl"></div>
-
-
-
+      <div class="great mt-20 flex flex-col-reverse lg:flex-row">
+        <div
+          class="grid mt-[50px] lg:mt- [0px] gap-8 grid-cols-1 lg:grid-cols-2 flex-1"
+        >
+          <div
+            class="hidden lg:flex bg-gradient-to-r from-red-600 to-yellow-400 opacity-50 rounded-xl h-32"
+          ></div>
+          <div
+            class="row-span-2 bg-red bg-purple-500 h-80 rounded-xl flex justify-between"
+          >
+            <img src="./images/fresh-1.png" class="m-auto" alt="" />
+          </div>
+          <div
+            class="row-span-2 bg-red bg-yellow-200 h-80 rounded-xl flex justify-between"
+          >
+            <img src="./images/fresh-2.png" class="m-auto" alt="" />
+          </div>
+          <div
+            class="bg-red hidden lg:flex bg-gradient-to-r from-purple-500 to-pink-500 opacity-50 h-32 rounded-xl"
+          ></div>
         </div>
         <div class="right w-full lg:w-[532px] flex-1 lg:ml-[70px]">
-           <div class="space-y-5">
-            <h1 class="text-5xl font-[800] text-black leading-20">Great Tea, Freshly <br> Presented</h1>
-            <p class="text-xl text-[500] text-[#777]">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
-           </div>
-           <div class="mt-4">
+          <div class="space-y-5">
+            <h1 class="text-5xl font-[800] text-black leading-20">
+              Great Tea, Freshly <br />
+              Presented
+            </h1>
+            <p class="text-xl text-[500] text-[#777]">
+              The meaning of gong cha is chanese is to provide the best tea to
+              emperor from all possessions . It represents the highest quality
+              and self expectation. Establishing in 2006, Gong cha had been
+              deeply appreciated by its custoers because of good words of mouth
+              and unique customized service orginated from Taiwan.
+            </p>
+          </div>
+          <div class="mt-4">
             <h5 class="text-[20px] font-[800]">Unique Taste</h5>
-            <p  class="text-xl text-[500] text-[#777]">A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
-           </div>
-           <div class="mt-4">
+            <p class="text-xl text-[500] text-[#777]">
+              A Unique and different style from other teapots gives a luxurious
+              and minimalist impression
+            </p>
+          </div>
+          <div class="mt-4">
             <h5 class="text-[20px] font-[800]">Premium Quality</h5>
-            <p  class="text-xl text-[500] text-[#777]">Premium Quality that makes tea more elegant and more durable when you use it.</p>
-           </div>
+            <p class="text-xl text-[500] text-[#777]">
+              Premium Quality that makes tea more elegant and more durable when
+              you use it.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Great Tea End -->
+
+      <!-- event sec start -->
+      <div class="event ">
+
+        <div class="w-[100%] lg:w-[901px] mx-auto text-center lg:space-x-9 mt-24">
+            <h1  class="text-[45px] text-[800] text-[#1C1C1C]">News & Events</h1>
+            <p class="text-[16px] text-[500] text-[#777]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
         </div>
 
 
+        <!-- card start -->
+        <!-- card1 -->
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-[40px]">
+            <div class="card mt-11 bg-base-100 shadow-xl">
+                <figure class="p-3"><img src="./images/news-1.png" alt="Shoes" class="rounded-xl" /></figure>
+                <div class="px-10 lg:px-6 pb-5 space-y-5">
+                    <p class="text-[16px] text-[#777] font-[500]">Feb 05, 2027</p>
+                  <h2 class="card-title">
+                    Collecting 8 points for discount
+                    
+                  </h2>
+                  <p>There are many variations of passages of Lorem Ipsum available.</p>
 
+                  <h2 class="font-[700]">Learn More</h2>
+                  
+                </div>
+              </div>
+              <div class="card mt-11 bg-base-100 shadow-xl">
+                <figure class="p-3"><img src="./images/news-2.png" alt="Shoes" class="rounded-xl" /></figure>
+                <div class="px-10 space-y-5  pb-5">
+                    <p class="text-[16px] text-[#777] font-[500]">Feb 05, 2027</p>
+                  <h2 class="card-title">
+                    Collecting 8 points for discount
+                    
+                  </h2>
+                  <p>There are many variations of passages of Lorem Ipsum available.</p>
 
+                  <h2 class="font-[700]">Learn More</h2>
+                  
+                </div>
+              </div>
+              <div class="card mt-11 bg-base-100 shadow-xl">
+                <figure class="p-3"><img src="./images/news-3.png" alt="Shoes" class="rounded-xl" /></figure>
+                <div class="px-10 space-y-5  pb-5">
+                    <p class="text-[16px] text-[#777] font-[500]">Feb 05, 2027</p>
+                  <h2 class="card-title">
+                    Collecting 8 points for discount
+                    
+                  </h2>
+                  <p>There are many variations of passages of Lorem Ipsum available.</p>
 
-
-
-
-
+                  <h2 class="font-[700]">Learn More</h2>
+                  
+                </div>
+              </div>
+        </div>
 
       </div>
-      <!-- Great Tea End -->
     </main>
     <footer></footer>
   </body>
